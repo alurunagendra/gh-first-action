@@ -4,8 +4,8 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      - name: Greet
+      - name: Say Greet
         run: echo "Hello, welcome to GitHub Actions"
-      - name: Goodbye
-        run: echo "Goodbye!"
+      - name: Say bye
+        run: echo "Bye!"
       
